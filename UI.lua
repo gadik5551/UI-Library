@@ -4579,7 +4579,7 @@ function library:init()
         if not IonHub_User then
             getgenv().IonHub_User = {
                 UID = 0, 
-                User = "admin"
+                User = '*NickName*'
             }
         end
         self.watermark = {
@@ -4754,7 +4754,7 @@ function library:CreateSettingsTab(menu)
 
     refreshConfigs()
 
-    mainSection:AddBind({text = 'Open / Close', flag = 'togglebind', nomouse = true, noindicator = true, bind = Enum.KeyCode.End, callback = function()
+    mainSection:AddBind({text = 'Open / Close', flag = 'togglebind', nomouse = true, noindicator = true, bind = Enum.KeyCode.RightControl, callback = function()
         library:SetOpen(not library.open)
     end});
 
