@@ -45,7 +45,7 @@ Library.Icons = {
 
 local old_warn = warn
 local warn = function(...)
-    old_warn("[Frise X]",...)
+    old_warn("[DragonSlayer]",...)
 end
 
 -- UTILITY
@@ -1021,7 +1021,7 @@ do
         local function makeLibrary()
             -- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
             local Converted = {
-                ["Frise X"] = Instance.new("ScreenGui");
+                ["DragonSlayer"] = Instance.new("ScreenGui");
                 ["_UI_Library"] = Instance.new("Folder");
                 ["_Name"] = Instance.new("StringValue");
                 ["_Creator"] = Instance.new("StringValue");
@@ -1176,21 +1176,21 @@ do
 
             --Properties
 
-            Converted["Frise X"].DisplayOrder = 99
-            Converted["Frise X"].IgnoreGuiInset = true
-            Converted["Frise X"].ResetOnSpawn = false
-            Converted["Frise X"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
-            Converted["Frise X"].Name = "Frise X"
-            Converted["Frise X"].Parent = game:GetService("CoreGui")
+            Converted["DragonSlayer"].DisplayOrder = 99
+            Converted["DragonSlayer"].IgnoreGuiInset = true
+            Converted["DragonSlayer"].ResetOnSpawn = false
+            Converted["DragonSlayer"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+            Converted["DragonSlayer"].Name = "DragonSlayer"
+            Converted["DragonSlayer"].Parent = game:GetService("CoreGui")
 
             Converted["_UI_Library"].Name = "UI_Library"
-            Converted["_UI_Library"].Parent = Converted["Frise X"]
+            Converted["_UI_Library"].Parent = Converted["DragonSlayer"]
 
-            Converted["_Name"].Value = "Frise X UI Library"
+            Converted["_Name"].Value = "DragonSlayer"
             Converted["_Name"].Name = "Name"
             Converted["_Name"].Parent = Converted["_UI_Library"]
 
-            Converted["_Creator"].Value = "FRISESKGUJFUKG"
+            Converted["_Creator"].Value = "DragonSlayer"
             Converted["_Creator"].Name = "Creator"
             Converted["_Creator"].Parent = Converted["_UI_Library"]
 
@@ -1204,7 +1204,7 @@ do
             Converted["_Main"].Size = UDim2.new(0, 640, 0, 438)
             Converted["_Main"].ZIndex = 100
             Converted["_Main"].Name = "Main"
-            Converted["_Main"].Parent = Converted["Frise X"]
+            Converted["_Main"].Parent = Converted["DragonSlayer"]
 
             Converted["_Contents"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
             Converted["_Contents"].BackgroundTransparency = 1
@@ -1352,7 +1352,7 @@ do
             Converted["_Ignore4"].Parent = Converted["_Theme4"]
 
             Converted["_Title"].Font = Enum.Font.GothamBlack
-            Converted["_Title"].Text = "Frise X"
+            Converted["_Title"].Text = "DragonSlayer"
             Converted["_Title"].TextColor3 = Color3.fromRGB(164.00000542402267, 53.00000064074993, 90.00000223517418)
             Converted["_Title"].TextSize = 16
             Converted["_Title"].TextTruncate = Enum.TextTruncate.AtEnd
@@ -1422,7 +1422,7 @@ do
             Converted["_Frame"].Parent = Converted["_Main1"]
 
             Converted["_B"].Font = Enum.Font.Gotham
-            Converted["_B"].Text = "Frise X UI Lib: FRISESKGUJFUKG" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
+            Converted["_B"].Text = "" -- please don't remove this, this is open sourced and I leave this here so that users can know the name of the UI library if they are interested in it
             Converted["_B"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_B"].TextSize = 12
             Converted["_B"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1435,7 +1435,7 @@ do
             Converted["_B"].Parent = Converted["_Frame"]
 
             Converted["_A"].Font = Enum.Font.Gotham
-            Converted["_A"].Text = "AWP: FRISESKGUJFUKG"
+            Converted["_A"].Text = "AWP:DragonSlayer"
             Converted["_A"].TextColor3 = Color3.fromRGB(225.00000178813934, 225.00000178813934, 225.00000178813934)
             Converted["_A"].TextSize = 12
             Converted["_A"].AnchorPoint = Vector2.new(0.5, 0.5)
@@ -1862,7 +1862,7 @@ do
             Converted["_Notifications"].Size = UDim2.new(0, 260, 1, -20)
             Converted["_Notifications"].ZIndex = 200
             Converted["_Notifications"].Name = "Notifications"
-            Converted["_Notifications"].Parent = Converted["Frise X"]
+            Converted["_Notifications"].Parent = Converted["DragonSlayer"]
 
             Converted["_UIListLayout4"].Padding = UDim.new(0, 10)
             Converted["_UIListLayout4"].HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -1876,7 +1876,7 @@ do
             Converted["_Hint"].Visible = false
             Converted["_Hint"].ZIndex = 300
             Converted["_Hint"].Name = "Hint"
-            Converted["_Hint"].Parent = Converted["Frise X"]
+            Converted["_Hint"].Parent = Converted["DragonSlayer"]
 
             Converted["_Arrow1"].Image = "http://www.roblox.com/asset/?id=10955007577"
             Converted["_Arrow1"].ImageColor3 = Color3.fromRGB(21.000000648200512, 21.000000648200512, 21.000000648200512)
@@ -2015,7 +2015,7 @@ do
             Converted["_Ignore21"].Name = "Ignore"
             Converted["_Ignore21"].Parent = Converted["_Theme22"]
 
-            return Converted["Frise X"]
+            return Converted["DragonSlayer"]
         end
 
         local lib = makeLibrary()
