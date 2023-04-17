@@ -4754,7 +4754,7 @@ function library:CreateSettingsTab(menu)
 
     refreshConfigs()
 
-    mainSection:AddBind({text = 'Open / Close', flag = 'togglebind', nomouse = true, noindicator = true, bind = Enum.KeyCode.End, callback = function()
+    mainSection:AddBind({text = 'Open / Close', flag = 'togglebind', nomouse = true, noindicator = true, bind = Enum.KeyCode.RightControl, callback = function()
         library:SetOpen(not library.open)
     end});
 
@@ -4793,7 +4793,7 @@ function library:CreateSettingsTab(menu)
     end})
     
     mainSection:AddButton({text = 'Copy Discord', flag = 'copydiscord', callback = function()
-        setclipboard('discord.gg/seU6gab')
+        setclipboard('discord.gg/EycRvyPhgz')
     end})
 
     mainSection:AddButton({text = 'Rejoin Server', confirm = true, callback = function()
@@ -4806,10 +4806,6 @@ function library:CreateSettingsTab(menu)
 
     mainSection:AddButton({text = 'Copy Join Script', callback = function()
         setclipboard(([[game:GetService("TeleportService"):TeleportToPlaceInstance(%s, "%s")]]):format(game.PlaceId, game.JobId))
-    end})
-
-    mainSection:AddButton({text = 'Copy Game Invite', callback = function()
-        setclipboard(([[Roblox.GameLauncher.joinGameInstance(%s, "%s"))]]):format(game.PlaceId, game.JobId))
     end})
 
     mainSection:AddButton({text = 'Unload', confirm = true, callback = function()
